@@ -7,5 +7,5 @@ b_age = int(temp1[0])
 b_gen = temp2[1]
 
 
-if min(a_age,b_age) >= 19 and (a_gen == 'M' or b_gen == 'M'):
+if (a_age >=19 or b_age  >=19) and (a_gen == 'M' or b_gen == 'M'):
     print(1)
