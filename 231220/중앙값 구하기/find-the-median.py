@@ -10,5 +10,5 @@ if (a != temp_min) and (a != temp_max):
     print(a)
 elif (b != temp_min) and (b != temp_max):
     print(b)
-else:
+elif (c != temp_min) and (c != temp_max):
     print(c)
