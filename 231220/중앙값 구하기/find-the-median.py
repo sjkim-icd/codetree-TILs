@@ -9,7 +9,7 @@ temp_max = max(temp)
 
 if b<=a<=c or c<=a<=b :
     print(a)
-elif b<=c<=a or a<=c<=b:
+elif c<=b<=a or a<=b<=c:
     print(b)
 elif b<=c<=a or a<=c<=b:
     print(c)
