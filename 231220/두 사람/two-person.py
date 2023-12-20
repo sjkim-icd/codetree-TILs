@@ -3,7 +3,7 @@ temp2 = input().split()
 
 a_age = int(temp1[0])
 a_gen = temp1[1]
-b_age = int(temp1[0])
+b_age = int(temp2[0])
 b_gen = temp2[1]
 
 
