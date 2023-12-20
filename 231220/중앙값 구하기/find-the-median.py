@@ -6,9 +6,10 @@ c = int(temp[2])
 temp_min = min(temp)
 temp_max = max(temp)
 
-if (a != temp_min) and (a != temp_max):
+
+if b<a<c or c<a<b :
     print(a)
-elif (b != temp_min) and (b != temp_max):
+elif b<c<a or a<c<b:
     print(b)
-elif (c != temp_min) and (c != temp_max):
+elif b<c<a or a<c<b:
     print(c)
