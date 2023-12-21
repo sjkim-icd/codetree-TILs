@@ -1,6 +1,8 @@
+# 변수 선언, 입력
 n = int(input())
 i = 1
-while n > 0 :
-    print(i,end= ' ')
-    i += 1
-    n -= 1
+
+# 출력
+while i <= n:
+	print(i, end=" ")
+	i += 1
