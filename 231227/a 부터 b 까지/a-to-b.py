@@ -1,16 +1,13 @@
-temp = input().split()
-a = int(temp[0])
-b = int(temp[1])
+inp = input()
+arr = inp.split()
+a = int(arr[0])
+b = int(arr[1])
+i = a
 
-for i in range(a,b):
-
-    print(a,end=' ')
-    # 조건에 맞춰 수를 변경
-    if a % 2 == 1:
-        a *= 2
-    else:
-        a += 3
-
-
-    if a > b:
-        break
+# 출력
+while i <= b:
+	print(i, end=" ")
+	if i % 2 == 1:
+		i *= 2
+	else:
+		i += 3
