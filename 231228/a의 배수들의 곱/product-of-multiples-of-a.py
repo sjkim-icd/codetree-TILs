@@ -1,7 +1,7 @@
 temp = input().split()
 
 a = int(temp[0])
-b = int(temp[1])
+b = int(temp[1]) + 1
 
 prod = 1
 for i in range(1,b):
